@@ -13,9 +13,12 @@ while(opcion!=5):
     opcion=opcion+1
     opcion=int(input("digita un numero: "))
     if opcion==1:
-        print("Usted esta en la opción 1")
+        nombre=input("Digita el nombre del producto: ")
+        #Agregando datos a una lista.
+        peluches.append(nombre)
+        print("Peluche agregado con exito")
     elif opcion==2:
-        print("Usted esta en la opción 2")
+        print(peluches)
     elif opcion==3:
         print("Usted esta en la opción 3")
     elif opcion==4:
